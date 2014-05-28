@@ -290,10 +290,10 @@
             </objects>
             <point key="canvasLocation" x="566" y="391"/>
         </scene>
-        <!--View Controller - Add To-Do Item-->
+        <!--Add To Do Item View Controller - Add To-Do Item-->
         <scene sceneID="R9a-Uv-kR2">
             <objects>
-                <viewController id="wNF-mW-wjX" sceneMemberID="viewController">
+                <viewController id="wNF-mW-wjX" customClass="WMTAddToDoItemViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wio-fx-2dO"/>
                         <viewControllerLayoutGuide type="bottom" id="Lfn-yJ-NYq"/>

@@ -20,6 +20,7 @@
 		5CAEF8BB193535C500F5EEE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAEF8A3193535C500F5EEE0 /* UIKit.framework */; };
 		5CAEF8C3193535C500F5EEE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CAEF8C1193535C500F5EEE0 /* InfoPlist.strings */; };
 		5CAEF8C5193535C500F5EEE0 /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAEF8C4193535C500F5EEE0 /* ToDoListTests.m */; };
+		5CD69C6F1936643F000CDD72 /* WMTAddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD69C6E1936643F000CDD72 /* WMTAddToDoItemViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		5CAEF8C0193535C500F5EEE0 /* ToDoListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoListTests-Info.plist"; sourceTree = "<group>"; };
 		5CAEF8C2193535C500F5EEE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5CAEF8C4193535C500F5EEE0 /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		5CD69C6D1936643F000CDD72 /* WMTAddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMTAddToDoItemViewController.h; sourceTree = "<group>"; };
+		5CD69C6E1936643F000CDD72 /* WMTAddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMTAddToDoItemViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 				5CAEF8AE193535C500F5EEE0 /* WMTAppDelegate.h */,
 				5CAEF8AF193535C500F5EEE0 /* WMTAppDelegate.m */,
 				5C3DEECB19354A8600F4DC31 /* Main.storyboard */,
+				5CD69C6D1936643F000CDD72 /* WMTAddToDoItemViewController.h */,
+				5CD69C6E1936643F000CDD72 /* WMTAddToDoItemViewController.m */,
 				5CAEF8B1193535C500F5EEE0 /* Images.xcassets */,
 				5CAEF8A6193535C500F5EEE0 /* Supporting Files */,
 			);
@@ -246,6 +251,7 @@
 			files = (
 				5CAEF8AC193535C500F5EEE0 /* main.m in Sources */,
 				5CAEF8B0193535C500F5EEE0 /* WMTAppDelegate.m in Sources */,
+				5CD69C6F1936643F000CDD72 /* WMTAddToDoItemViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -22,6 +22,7 @@
 		5CAEF8C5193535C500F5EEE0 /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAEF8C4193535C500F5EEE0 /* ToDoListTests.m */; };
 		5CD69C6F1936643F000CDD72 /* WMTAddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD69C6E1936643F000CDD72 /* WMTAddToDoItemViewController.m */; };
 		5CD69C7219366514000CDD72 /* WMTToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD69C7119366514000CDD72 /* WMTToDoListTableViewController.m */; };
+		5CD69C7519369F1F000CDD72 /* WMTToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD69C7419369F1F000CDD72 /* WMTToDoItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		5CD69C6E1936643F000CDD72 /* WMTAddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMTAddToDoItemViewController.m; sourceTree = "<group>"; };
 		5CD69C7019366514000CDD72 /* WMTToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMTToDoListTableViewController.h; sourceTree = "<group>"; };
 		5CD69C7119366514000CDD72 /* WMTToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMTToDoListTableViewController.m; sourceTree = "<group>"; };
+		5CD69C7319369F1F000CDD72 /* WMTToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMTToDoItem.h; sourceTree = "<group>"; };
+		5CD69C7419369F1F000CDD72 /* WMTToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMTToDoItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				5C3DEECB19354A8600F4DC31 /* Main.storyboard */,
 				5CD69C7019366514000CDD72 /* WMTToDoListTableViewController.h */,
 				5CD69C7119366514000CDD72 /* WMTToDoListTableViewController.m */,
+				5CD69C7319369F1F000CDD72 /* WMTToDoItem.h */,
+				5CD69C7419369F1F000CDD72 /* WMTToDoItem.m */,
 				5CD69C6D1936643F000CDD72 /* WMTAddToDoItemViewController.h */,
 				5CD69C6E1936643F000CDD72 /* WMTAddToDoItemViewController.m */,
 				5CAEF8B1193535C500F5EEE0 /* Images.xcassets */,
@@ -256,6 +261,7 @@
 			files = (
 				5CD69C7219366514000CDD72 /* WMTToDoListTableViewController.m in Sources */,
 				5CAEF8AC193535C500F5EEE0 /* main.m in Sources */,
+				5CD69C7519369F1F000CDD72 /* WMTToDoItem.m in Sources */,
 				5CAEF8B0193535C500F5EEE0 /* WMTAppDelegate.m in Sources */,
 				5CD69C6F1936643F000CDD72 /* WMTAddToDoItemViewController.m in Sources */,
 			);

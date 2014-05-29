@@ -138,4 +138,17 @@
 }
 */
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    // deselect the tapped item right away
+    [tableView deselectRowAtIndexPath:indexPath animated:NO];
+    
+    WMTToDoItem *tappedItem = [self.toDoItems objectAtIndex:indexPath.row];
+    tappedItem.completed = !tappedItem.completed;
+    
+    // reload updated rows without an animation
+    [tableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationNone];
+    
+}
+
 @end

@@ -8,6 +8,7 @@
 
 #import "WMTToDoListTableViewController.h"
 #import "WMTToDoItem.h"
+#import "WMTAddToDoItemViewController.h"
 
 @interface WMTToDoListTableViewController ()
 
@@ -76,7 +77,14 @@
 
 - (IBAction)unwindToList:(UIStoryboardSegue *)segue
 {
-
+    WMTAddToDoItemViewController *source = [segue sourceViewController];
+    WMTToDoItem *item = source.toDoItem;
+    
+    if (item != nil) {
+        [self.toDoItems addObject:item];
+        // table views don't keep track of their data, so we must manually reload data on the table view when it changes
+        [self.tableView reloadData];
+    }
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath

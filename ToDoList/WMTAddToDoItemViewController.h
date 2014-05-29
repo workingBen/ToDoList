@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WMTToDoItem.h"
 
 @interface WMTAddToDoItemViewController : UIViewController
+
+@property WMTToDoItem *toDoItem;
 
 @end
